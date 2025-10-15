@@ -15,13 +15,21 @@ public class Piano extends Instrument {
   }
 
   /*
-   * Parameterized constructor
+   * Parameterized constructor with parameters for all instance variables
    */
   public Piano(String color, String size, boolean hasStrings, boolean isKeyboard) {
     super(color, size, hasStrings);
     this.isKeyboard = isKeyboard;
     }
 
+  /*
+   * Parameterized constructor with parameters for color, size, and isKeyboard instance variables
+   */
+  public Piano(String color, String size, boolean isKeyboard) {
+    super(color, size);
+    this.isKeyboard = isKeyboard;
+  }
+  
   /*
    * Accessor method for the isKeyboard instance variable
    */
