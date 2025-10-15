@@ -19,6 +19,6 @@ Use your knowledge of object-oriented programming and class structure and design
 
 ## Description
 
-For my project, I created an instrument/music store management system. I chose this topic because I play the cello, and I thought it would be interesting to combine computer science and this hobby. I created instance variables for the size and color of the instruments
+For my project, I created an instrument/music store management system. I chose this topic because I play the cello, and I thought it would be interesting to combine computer science and this hobby. I created instance variables for the size and color of the instruments, as well as whether or not the instrument has strings. These all have private access modifiers. I also refactored these instance variables to be in 
 
 Write a description of your project here. Include what your store you made, and why you chose this topic. In your description, include as many vocab words from our class to explain how you represented the item/service from your store. If you have user input, explain how the user will interact with your store such as which questions are prompted to the user, what response is your program expecting, and how that is used to output information for your store in the console.
